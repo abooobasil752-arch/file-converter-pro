@@ -68,7 +68,7 @@ async def convert_file(
 
             subprocess.run(
                 [
-                    "libreoffice",
+                    "soffice",
                     "--headless",
                     "--convert-to",
                     "pdf",
